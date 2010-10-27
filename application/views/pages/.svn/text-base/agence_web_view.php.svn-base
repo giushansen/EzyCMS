@@ -1,0 +1,52 @@
+<div id="left">
+
+    <h1>Cr&eacute;ation de Sites Internet</h1>
+        
+        <img class="image" src="http://88.162.121.205/itatom/images/people.jpg" 
+alt="internet" width="575" height="300" />
+
+        <h2>Des sites optimis&eacute;s</h2>
+        <p>Nos sites webs sont con&ccedil;us afin d'&ecirc;tre r&eacute;f&eacute;renc&eacute;s naturellement avec efficacit&eacute; par des moteurs de recherches tels que Google ou encore Yahoo!.</p>
+
+        <h2>Des sites pour le grand public</h2>
+        <p>Tous les sites web que nous proposons sont munis d'interfaces simples et intuitives afin de rendre les informations accessibles &agrave; tous les types d'internautes. </p>
+
+        <h2>Le meilleur rapport Qualite/Prix avec des freelancers exp&eacute;riment&eacute;s</h2>
+        <p>Notre &eacute;quipe de professionnels diplom&eacute;s en infomatique propose les derni&egrave;res technologies &eacute;prouv&eacute;es en mati&egrave;re d'internet afin de r&eacute;aliser votre projet web avec une grande qualit&eacute; de conception. Cette flexibilit&eacute; vous permet &agrave; n'importe quel moment de faire &eacute;voluer votre site Web.</p>
+        <p>Et pour rendre l'exp&eacute;rience plus agr&eacute;able, votre projet est r&eacute;alis&eacute; dans une dur&eacute;e raisonnable et pour un prix d'achat d&eacute;butant seulement &agrave; 199 Euros accompagn&eacute; de l'h&eacute;bergement mensuel de 9.95 Euros ! </p>
+
+        <h2>Elaborez votre offre en toute transparence</h2>
+        <p>Vous pouvez d&egrave;s maintenant simuler votre projet dans la page <?=anchor('offres', 'Nos Offres');?> &agrave; l'aide du tableau int&eacute;ractif </p>
+
+</div>
+<div id="right">
+
+    <div class="box">
+        <div class="boxHead ui-corner-top">
+            <h2> Notre concept </h2>
+        </div>
+        <div class="boxContent">
+            <p><b>" Nous nous effor&ccedil;ons de fournir la qualit&eacute; de grands sites Web a de petit prix afin de fournir a toutes les Petites Entreprises une opportunit&eacute; de poss&eacute;der un site Internet "</b><i></p>
+            <p> Interview de Nicolas PORQUEDDU (Directeur Administratif et Financier) par "Le Monde" </i></p>
+        </div>
+        <div class="boxFooter ui-corner-bottom">
+        </div>
+    </div>
+    <div class="box">
+        <div id="showtime">
+                <div class="advertisement" class="ui-state-highlight ui-corner-all">
+                        <span class="ui-icon ui-icon-lightbulb"></span>
+                        <p><strong>U N E&nbsp;&nbsp;&nbsp;I D &Eacute; E ?</strong></p>
+                </div>
+                <div class="advertisement" class="ui-state-highlight ui-corner-all">
+                        <span class="ui-icon ui-icon-star"></span>
+                        <p><strong>Vous r&ecirc;vez d'avoir v&ocirc;tre site Internet dans les meilleures conditions sans vous ruiner ?</strong></p>
+                </div>
+                <div class="advertisement" class="ui-state-highlight ui-corner-all">
+                        <span class="ui-icon ui-icon-key"></span>
+                        <p><strong>Nous sommes l&agrave; pour vous aider &agrave; r&eacute;aliser v&ocirc;tre projet !</strong></p>
+                </div>
+        </div>
+    </div>
+
+</div>

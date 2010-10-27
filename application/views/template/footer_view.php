@@ -1,0 +1,10 @@
+        <div id="footer" class="ui-corner-all">
+            <ul>
+                <li><?=anchor('agence_web', 'Qui sommes-nous ?');?></li>
+                <li><?=anchor('contact', 'Site Web 2010');?></li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

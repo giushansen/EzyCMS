@@ -1,0 +1,354 @@
+/*****************************  General  *************************************/
+body {
+        background:url("../images/BgMain.jpg") repeat-x scroll 0 0 white;
+	color:#000000;
+        font-family: "Lucida Grande", Verdana, sans-serif;
+	font-size: 12px;
+	margin: 10px 10px;
+	padding: 0px;
+}
+
+#container {
+    margin: 25px auto auto auto;
+    text-align: left;
+    width: 1000px;
+}
+
+.image {
+    border-width:0px;
+    margin-left: 60px;
+}
+
+#gmap {
+    border-width:0px;
+    margin-left: 60px;
+    display: none;
+}
+
+h1{
+    color:#000000;
+    font-size:18px;
+    margin: 20px 0px 15px 10px;
+}
+
+h2{
+    font-size:16px;
+    margin:20px 5px 10px 0px;
+}
+
+.clear {
+    clear:both;
+    font-size:0;
+    height:0;
+    line-height:0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+a{
+    font-size:12px;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+    margin: 20px 0px 0px 0px;
+}
+
+table tr, table td {
+    border: 2px;
+}
+
+/*****************************  Navigation  ***********************************/
+#navigation, #top, #footer {
+    background-color: #000000;
+    width: 980px;
+    padding: 10px;
+}
+
+#navigation ul, #top ul, #footer ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+#navigation li, #top li, #footer li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    
+}
+
+/*******************************  Top  ***************************************/
+#top {
+    background:url("../images/blackbottom.jpg") repeat-x scroll 20% 20% white;
+    width: 980px;
+    padding: 10px;
+}
+
+#top ul {
+
+    text-decoration: none;
+    text-align: right;
+
+}
+
+#top li a {
+    font-size: 10px;
+    padding-right: 10px;
+    color: #059BD8;
+}
+
+#top li a:hover {
+   color: #FFFFFF;
+}
+
+/******************************  Banner  *************************************/
+#banner {
+   position: relative;
+   background: url(../images/blueCD.jpg) repeat scroll left top;
+   height: 100px;
+   width: 1000px;
+}
+
+#banner p {
+    position: absolute;
+    color: #FFF;
+    left: 10px;
+    top: 15px;
+    width: 465px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+}
+
+/*****************************  Navigation  ***********************************/
+#navigation ul, #navigation li a {
+   color: #ffffff;
+   background-color: #000000;
+   text-decoration: none;
+}
+
+.active {
+    background:url("../images/BgButtonOrange.png") repeat-x scroll 50% 50% #FF8000 !important;
+    border:1px solid #FAAC58 !important; /*  #6EAC2C #ACDD4A */
+}
+
+/*****************************  Advertise  ************************************/
+.advertisement {
+    text-align: center;
+    font-size: 20px;
+    background:url("images/ui-bg_glass_55_f8da4e_1x400.png") repeat-x scroll 50% 50% #F8DA4E;
+    border:1px solid #FCD113;
+    color:#915608;
+    width:250px;
+    height: 200px;
+}
+
+.advertisement p {
+    margin-top: 20px;
+}
+
+.advertisement span {
+    margin-top: 30px;
+    margin-left: 110px;
+}
+
+/******************************  Content  *************************************/
+#content-bg {
+    background:url("../images/BgContent.jpg") repeat-y scroll 0 0 transparent;
+    padding:10px 0px 10px 0px;
+}
+
+#content {
+    background:url("../images/dot.jpg") repeat-y scroll 719px 0 transparent;
+    width:1000px;
+}
+
+#left {
+    float: left;
+    width:700px;
+    padding: 5px;
+}
+
+#left h1 {
+    color: #4297D7;
+    font-size: 25px;
+    display:inline-block;
+    font-family:"Trebuchet MS";
+    font-weight: bold;
+    font-style:italic;
+    padding: 5px 0px 0px 20px;
+    border-bottom:1px solid #CCCCCC;
+}
+
+#left h2{
+    color:#000000;
+    font-size:18px;
+    margin: 20px 10px 15px 10px;
+}
+
+#left a {
+    color: #4297D7;
+    font-weight: bold;
+    text-decoration: none;
+}
+#left a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#right {
+    float: right;
+    width:262px;
+}
+/****************************  Offer Table  ***********************************/
+#tableOffer {
+    border-bottom:1px solid #000000;
+    border-spacing: 0;
+    font-size:12px;
+    margin:20px 35px 20px;
+    padding:0;
+    width:500px;
+}
+
+.trHead {
+    color:white;
+    font-weight:bold;
+    height:26px;
+    margin:0;
+    padding:0;
+}
+
+.tdCheckHead {
+    background:url("../images/BgButtonOrange.png") repeat-x scroll 50% 50% #FF8000;
+    border-bottom:1px solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+    width:25px;
+}
+
+.tdProductHead {
+    background:url("../images/BgButtonOrange.png") repeat-x scroll 50% 50% #FF8000;
+    border-bottom:1px solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+    width:270px;
+}
+
+.tdCostHead {
+    background:url("../images/BgButtonOrange.png") repeat-x scroll 50% 50% #FF8000;
+    border-bottom:1px solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+    width:95px;
+}
+
+.tdMonthlyHead {
+    background:url("../images/BgButtonOrange.png") repeat-x scroll 50% 50% #FF8000;
+    border-bottom:1px solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+    width:95px;
+}
+
+.trLight { height:25px; margin:0; padding:0; }
+.trDark { background:none repeat scroll 0 0 #EEEEEE; height:25px; margin:0; padding:0; }
+
+.tdCheck {
+    border-left: solid #000000;
+    margin:0;
+    padding:0;
+    width:25px;
+}
+
+.tdProduct {
+    border-right: solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+}
+
+.tdCost  {
+    border-right: solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+}
+
+.tdMonthly {
+    border-right: solid #000000;
+    margin:0;
+    padding:0 0 0 5px;
+}
+
+/*******************************  Boxes  **************************************/
+.box {
+    position: relative;
+    height: 220px;
+    width: 250px;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+.boxHead {
+    background:url("../images/BgButtonOrange.png") repeat-x scroll 50% 50% #FF8000;
+    border:1px solid #FAAC58;
+    position: absolute;
+    width: 260px;
+    height: 25px;
+    left: 0px;
+}
+
+.boxHead h2 {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 2px 0px 0px 0px;
+    margin: 0px;
+}
+
+.boxContent {
+    position: absolute;
+    border-left : 1px solid #FAAC58;
+    border-right : 1px solid #FAAC58;
+    padding: 0px 5px 0px 10px;
+    width: 245px;
+    height: 168px;
+    top: 32px;
+    left: 0px;
+    text-align: left;
+}
+
+.boxFooter {
+    position: absolute;
+    border: 1px solid #FAAC58;
+    border-top: none;
+    width: 260px;
+    height: 10px;
+    left: 0px;
+    top: 200px;
+}
+
+/*******************************  Footer  *************************************/
+#footer li a {
+   color: #059BD8;
+   background-color: #000000;
+   text-decoration: none;
+}
+
+#footer li a:hover {
+   color: #FFFFFF;
+}
+
+#footer {
+    clear: both;
+}
+
+#footer ul {
+    text-align: center;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title><?=$sTitle?></title>
+    <link href="<?=$sBaseURL?>styles/site.css" media="screen" rel="stylesheet" type="text/css" />
+    <link href="<?=$sBaseURL?>styles/custom-theme/jquery-ui-1.8.2.custom.css" media="screen" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="<?=$sBaseURL?>JS/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript" src="<?=$sBaseURL?>JS/jquery-ui-1.8.2.custom.min.js"></script>
+    <script type="text/javascript" src="<?=$sBaseURL?>JS/jquery.cycle/jquery.cycle.all.min.js"></script>
+    <script type="text/javascript" src="<?=$sBaseURL?>JS/design.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <div id="top" class="ui-corner-top">
+            <ul>
+                <li><?=anchor('agence_web', 'Authentification');?></li>
+            </ul>
+        </div>
+        <div id="banner">
+            <p> - IT Atom - <i>L'agence Web</i></p>
+        </div>
+        <div id="navigation" class="ui-corner-bottom">
+            <ul>
+                <?php foreach($aTitleNav as $sNav):?>
+                <li><?=$sNav?></li>
+                <?php endforeach;?>
+            </ul>
+        </div>
+        <div id="content-bg">
+            <div id="content">
+
