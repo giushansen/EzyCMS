@@ -49,7 +49,7 @@ class Admin extends Admin_Controller {
         if ($this->form_validation->run() || $this->isAdmin() == true)
         {
 
-            // Valid Form so the user is recorded into the CI session via _checkLogin()
+            //The Form is valid so the user is recorded into the CI session via _checkLogin()
             redirect('admin/pages');
         }else{
 
@@ -92,7 +92,7 @@ class Admin extends Admin_Controller {
                 return true;
             }
         }
-        $this->form_validation->set_message('_checkLogin', 'Your login is not good');
+        $this->form_validation->set_message('_checkLogin', 'Votre login n\'est pas bon !');
 
         return false;
     }

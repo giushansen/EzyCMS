@@ -47,6 +47,7 @@ class Admin_Controller extends Controller
         $aNav = $this->getNavigation($this->uri->segment(2));
 
         $this->template->set_metadata('canonical', site_url($this->uri->uri_string()), 'link')
+            ->set_metadata('icon', $this->sBaseUrl.'images/favicon.ico', 'link')
             ->set_admin()
             ->set_user($this->session->userdata('username'))
             ->set_metadata('stylesheet', $this->sBaseUrl.'styles/custom-theme/jquery-ui-1.8.2.custom.css', 'style')

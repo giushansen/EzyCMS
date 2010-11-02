@@ -1,6 +1,6 @@
 <?php
 
-class Contact extends Public_Controller {
+class Navigation extends Admin_Controller {
 
     function __construct()
     {
@@ -9,21 +9,12 @@ class Contact extends Public_Controller {
 
     function index()
     {
-        $data['sBaseUrl'] = $this->sBaseUrl;
-        $sTitle = "IT Atom - Contactez-nous ";
-        $aNav[] = anchor('agence_web',
-                                    'Accueil');
-        $aNav[] = anchor('offres', 'Nos Offres');
-        $aNav[] = anchor('contact', 'Contactez-nous',
-                                    array('class' => 'active',
-                                          'title' => 'Page d\'accueil'
-                                         ));
+        $this->aData['sBaseURL']  = $this->sBaseUrl;
+        $this->aData['sActionTitle']  = "Gerer la navigation";
+        // To change :
+        $this->aData['sError']  = "Cette fonctionnalite sera bientot presente dans votre CMS favori";
 
-        $this->template->set_title($sTitle)
-            ->set_metadata('title', 'Contactez-nous')
-            ->set_metadata('description', 'Formulaire de contact')
-            ->set_metadata('keywords', 'contact, adresse, telephone')
-            ->set_menu($aNav)
-            ->build('pages/contact_view', $data);
+        $this->template->set_title('EzyCMS - Navigation')
+             ->build('admin/navigation_view', $this->aData);
     }
 }

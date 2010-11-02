@@ -182,14 +182,16 @@ class Template
         $this->_aJs[] =
             '<script type="text/javascript">
             tinyMCE_GZ.init({
-                            mode : "textareas",
+                            mode : "exact",
+                            elements: "body",
                             theme : "advanced",
-                            languages : "fr",
+                            language : "fr",
+                            convert_urls : false,
                             plugins : "style,layer,table,save,advhr,advimage,advlink,emotions,iespell,insertdatetime,preview,media,"+
                                       "searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras",
 
                             // Theme options - button# indicated the row# only
-                            theme_advanced_buttons1 : "newdocument,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,fontselect,fontsizeselect,formatselect",
+                            theme_advanced_buttons1 : "bold,italic,underline,|,justifyleft,justifycenter,justifyright,fontselect,formatselect",
                             theme_advanced_buttons2 : "cut,copy,paste,|,bullist,numlist,|,outdent,indent,|,undo,redo,|,link,unlink,anchor,image,|,code,preview,|,forecolor,backcolor",
                             theme_advanced_buttons3 : "insertdate,inserttime,|,spellchecker,advhr,,removeformat,|,sub,sup,|,charmap,emotions",
                             theme_advanced_toolbar_location : "top",
@@ -200,14 +202,16 @@ class Template
             </script>
             <script type="text/javascript">
             tinyMCE.init({
-                            mode : "textareas",
+                            mode : "exact",
+                            elements: "body",
                             theme : "advanced",
-                            languages : "fr",
+                            language : "fr",
+                            convert_urls : false,
                             plugins : "style,layer,table,save,advhr,advimage,advlink,emotions,iespell,insertdatetime,preview,media,"+
                                       "searchreplace,print,contextmenu,paste,directionality,fullscreen,noneditable,visualchars,nonbreaking,xhtmlxtras",
 
                             // Theme options - button# indicated the row# only
-                            theme_advanced_buttons1 : "newdocument,|,bold,italic,underline,|,justifyleft,justifycenter,justifyright,fontselect,fontsizeselect,formatselect",
+                            theme_advanced_buttons1 : "bold,italic,underline,|,justifyleft,justifycenter,justifyright,fontselect,formatselect",
                             theme_advanced_buttons2 : "cut,copy,paste,|,bullist,numlist,|,outdent,indent,|,undo,redo,|,link,unlink,anchor,image,|,code,preview,|,forecolor,backcolor",
                             theme_advanced_buttons3 : "insertdate,inserttime,|,spellchecker,advhr,,removeformat,|,sub,sup,|,charmap,emotions",
                             theme_advanced_toolbar_location : "top",
