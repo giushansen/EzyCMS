@@ -69,7 +69,15 @@ class Pages_m extends Model
         $this->load->helper('date');
 
         $this->db->insert('pages',array(
-                                      'body'=> $input['content']
+                                    'slug'             => $input['slug'],
+                                    'title'            => $input['title'],
+                                    'body'             => $input['content'],
+                                    'meta_title'       => $input['meta_title'],
+                                    'meta_keywords'    => $input['meta_keywords'],
+                                    'meta_description' => $input['meta_description'],
+                                    'status'           => $input['status'],
+                                    'created_on'=> now(),
+                                    'updated_on'=> now()
                                   )
                          );
     }
@@ -77,12 +85,18 @@ class Pages_m extends Model
     public function update ($id = 0, $input = array())
     {  
         $this->load->helper('date');
-//var_dump($id, $input['content']);die;
+
         $this->db->where('id',$id);
         $this->db->update('pages',
                           array(
-                              'body'=> $input['content'],
-                              'updated_on'=> now()
+                            'slug'             => $input['slug'],
+                            'title'            => $input['title'],
+                            'body'             => $input['content'],
+                            'meta_title'       => $input['meta-title'],
+                            'meta_keywords'    => $input['meta-keywords'],
+                            'meta_description' => $input['meta-description'],
+                            'status'           => $input['status'],
+                            'updated_on'=> now()
                           )
                          );
         

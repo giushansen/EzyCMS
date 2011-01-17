@@ -29,7 +29,7 @@
 
         </div>
         <div id="mid-col" class="ui-corner-all">
-            <?php form_open('admin/pages/save/'.$id);?>
+            <?php echo form_open('admin/pages/save/'.$id); ?>
             <div id="page-info">
                 <ul>
                     <li>
@@ -72,11 +72,11 @@
             </div>
             <div id="page-content">
 	          <p>	
-		    <textarea id="body" style="width: 690px; height: 800px"><?php echo htmlentities($oPage->body); ?></textarea>
+		    <textarea id="body" name="content" style="width: 690px; height: 800px"><?php echo htmlentities($oPage->body); ?></textarea>
 	          </p>
             </div>
             <input class="button" type="submit" value="Enregistrer" />
-            <?php form_close();?>
+            <?php echo form_close(); ?>
         <?php else :?>
         </div>
         <div id="mid-col" class="ui-corner-all">

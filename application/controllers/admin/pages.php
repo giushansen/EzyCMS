@@ -84,6 +84,7 @@ class Pages extends Admin_Controller {
         {
             $this->form_validation->set_rules($this->validation_rules_page);
             if ($this->form_validation->run() == true){
+                
                $this->pages_m->update($id, $_POST);
             }
             
@@ -193,7 +194,7 @@ class Pages extends Admin_Controller {
                         'rules' => 'trim|required'
                 ),
                 array(
-                        'field' => 'body',
+                        'field' => 'content',
                         'rules' => 'required'
                 ),
                 array(

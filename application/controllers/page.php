@@ -5,9 +5,6 @@ class Page extends Public_Controller {
     function __construct()
     {
         parent::__construct();
-        
-        $this->load->model('navigations_m');
-        $this->load->model('pages_m');
     }
 
     	/**

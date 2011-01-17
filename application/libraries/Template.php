@@ -81,7 +81,7 @@ class Template
             $this->_ci->load->view('admin/template/footer_view');
 
         }else{
-
+            
             // Load all the views
             $this->_ci->load->view('template/header_view', $this->aHeader);
             $this->_ci->load->view($view, $data);

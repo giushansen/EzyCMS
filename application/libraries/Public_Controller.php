@@ -27,6 +27,9 @@ class Public_Controller extends Controller
             $this->output->enable_profiler(TRUE);
         }
 
+        $this->load->model('navigations_m');
+        $this->load->model('pages_m');
+
         $this->template->set_metadata('robot', 'follow, all')
             ->set_metadata('icon', $this->sBaseUrl.'images/favicon.ico', 'link')
             ->set_metadata('canonical', site_url($this->uri->uri_string()), 'link')
