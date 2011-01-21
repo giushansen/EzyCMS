@@ -22,7 +22,6 @@ body {
 #gmap {
     border-width:0px;
     margin-left: 60px;
-    display: none;
 }
 
 h1{
@@ -112,7 +111,7 @@ table tr, table td {
 #banner {
    position: relative;
    background: url(../images/blueCD.jpg) repeat scroll left top;
-   height: 100px;
+   height: 149px;
    width: 1000px;
 }
 

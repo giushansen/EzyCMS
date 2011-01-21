@@ -22,7 +22,7 @@
             </ul>
         </div>
         <div id="banner">
-            <p> - IT Atom - <i>L'agence Web</i></p>
+            <img src="http://localhost/itatom/images/itatom_banner.png" alt="itatom agence web">
         </div>
         <div id="navigation" class="ui-corner-bottom">
             <ul>

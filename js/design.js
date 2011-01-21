@@ -56,13 +56,4 @@ $(document).ready(function() {
             }, 
             delay: -6000 
       });
-      
-      $('#switch').hover(
-            function () {
-                  $('#imap').fadeOut('fast', function(){$('#gmap').fadeIn('fast');});
-            },
-            function () {
-                  $('#gmap').fadeOut('fast', function(){$('#imap').fadeIn('fast');});
-            }
-      );
 });

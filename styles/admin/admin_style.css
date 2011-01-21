@@ -20,6 +20,24 @@ body {
     font-weight: bold;
 }
 
+.even {
+    background:none repeat scroll 0 0 #F3F3F3;
+}
+
+.button{
+    color: red;
+    margin: 10px 0px 10px 10px !important;
+    font-weight: bold;
+    width: 200px;
+    height: 40px;
+}
+
+.button:hover{
+    color: black;
+    font-weight: normal;
+    border:1px solid #000000;
+}
+
 a {
     text-decoration: none;
     color: #FAAC58;
@@ -71,15 +89,13 @@ ul, li {
 }
 
 #container a:hover {
-    color: #6D7B8D;
+    color: #FFFFFF;
 }
 
 #left-col {
     float: left;
     width: 150px;
     padding: 2px;
-    border:1px solid #000000;
-    background: #000000;
 }
 
 #left-col li {
@@ -87,8 +103,21 @@ ul, li {
 }
 	
 #menu {
-    margin: 5px;
+    margin: 10px 5px 10px 5px;
+    padding: 10px 5px 5px 5px;
+    width: 125px;
+    float: left;
+    border:1px solid #000000;
+    background: #000000;
+}
+
+#menu-page {
+    margin: 10px 5px 10px 5px;
     padding: 5px;
+    width: 165px;
+    float: left;
+    border:1px solid #000000;
+    background: #000000;
 }
 
 #mid-col {
@@ -106,6 +135,11 @@ ul, li {
     margin: 0px 0px 0px 10px;
 }
 
+#mid-col input{
+    margin: 5px 0px 0px 0px;
+    font-size: 13px;
+}
+
 #file-tree {
     float: left;
     padding: 1px;
@@ -118,10 +152,26 @@ ul, li {
     width: 55%;
 }
 
+#page-info ul {
+    padding: 0px;
+}
+
+#page-info ul li {
+    padding: 15px;
+    width: 658px;
+}
+
+#page-info ul li label {
+    float: left;
+    font-weight: bold;
+    margin: 5px 0px 0px 0px;
+    width: 100px;
+}
+
 #footer {
     margin-top: 30px;
 }
 
 #footer a:hover {
-    color: #6D7B8D;
+    color: #000000;
 }
