@@ -60,7 +60,7 @@ class Pages_m extends Model
                 $aNav[] = anchor($oPage->slug, $oPage->meta_title);
             }
         } 
-
+        
         return $aNav;
     }
 
