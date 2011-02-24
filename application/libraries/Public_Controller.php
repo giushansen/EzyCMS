@@ -10,6 +10,8 @@ class Public_Controller extends Controller
 
     // Page object from the model
     protected $oPage;
+    // Block objects array from the model
+    protected $aBlocks;
 
     private $_CI;
 
@@ -29,6 +31,8 @@ class Public_Controller extends Controller
 
         $this->load->model('navigations_m');
         $this->load->model('pages_m');
+        $this->load->model('blocks_m');
+
 
         $this->template->set_metadata('robot', 'follow, all')
             ->set_metadata('icon', $this->sBaseUrl.'images/favicon.ico', 'link')
